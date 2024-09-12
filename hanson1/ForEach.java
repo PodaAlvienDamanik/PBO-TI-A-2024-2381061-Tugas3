@@ -2,12 +2,12 @@ package hanson1;
 
 public class ForEach {
     public static void main(String[] args) {
-        String Kumpulanbuah[] = new String[]{"Apel","Pisang","Durian","Jeruk"};
-        for (String namabuah : Kumpulanbuah){
-            if (namabuah.equals("Mangga") || namabuah.equals("Pisang")){
+        String kumpulanBuah[] = new String[]{"Apel","Pisang","Durian","Jeruk"};
+        for (String namaBuah : kumpulanBuah){
+            if (namaBuah.equals("Mangga") || namaBuah.equals("Pisang")){
                 continue;
             }
-            System.out.println(namabuah);
+            System.out.println(namaBuah);
         }
     }
 }
